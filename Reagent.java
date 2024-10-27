@@ -8,7 +8,17 @@
             this.purity = purity;
             this.expiry = expiry;
         }
+
+        public double getPurity() {
+            return purity;
+        }
+
+        public String getExpiry() {
+            return expiry;
+        }
     
+       
+       
         
         
         

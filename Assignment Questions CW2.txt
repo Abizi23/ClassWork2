@@ -1,0 +1,37 @@
+CW 2 (21/10/2024 - 27/10/2024)
+
+off the speсте tуре оf the entry passed m
+
+- Demonstrate how different types of entities can be handled in a unified manner while still executing their specific behaviors.
+
+4. Additional Complexity For Problem:
+
+- For at least one of the specialized entities, introduce an additional factor that affects the behavior of one of its operations (for example, a dynamic input or condition that changes how the entity behaves or calculates values).
+
+5. Main Execution Process:
+
+- In your main execution environment:
+
+- Create several instances of the specialized entities.
+
+-Store them in a collection of the general category type.
+
+- Loop through the collection and demonstrate the polymorphic behavior by invoking the common operations.
+
+- Output relevant details about each entity and the result of the operations performed on them.
+
+Program Example Output:
+
+For example, if you were designing a system for managing various items, such as physical objects, the output might include details about the different types of items and the results of specific operations performed on them, showing how each type behaves differently even when treated as part of the same general category.
+
+Additional Instructions:
+
+1. Ensure that the design follows the principles of inheritance to avoid duplication of common functionality.
+
+2. Demonstrate polymorphism by processing different specialized entities using a general reference, allowing specific behaviors to be executed based on the entity type.
+
+3. Make use of abstraction to enforce that each specialized entity implements its own behavior for the common operations.
+
+4. Ensure that your design is modular and flexible, allowing for the easy addition of new types of specialized entities in the future.
+
+Maximum file size: 800 MB, maximum number of files: 1

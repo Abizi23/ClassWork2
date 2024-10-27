@@ -14,9 +14,14 @@
         }
 
         public String getExpiry() {
+
             return expiry;
         }
     
+
+        public void show(){
+            System.out.println("Reagent Specification:"+" "+getName()+" "+getExpiry()+": "+getPrice()+"ugx"+": "+getPurity()+" "+getQuantity()+"ml");
+        }
        
        
         

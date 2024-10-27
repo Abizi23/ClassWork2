@@ -10,7 +10,7 @@ public class Kit extends StoreItem{
 
     
         public void show(){
-            System.out.println("Kit Specification:"+" "+getName()+" "+getNumberofbox()+": "+getPrice()+"ugx"+": "+" "+getQuantity()+"ml")
+            System.out.println("Kit Specification:"+" "+getName()+" "+getNumberofbox()+": "+getPrice()+"ugx"+": "+" "+getQuantity()+"ml");
         }
 
 

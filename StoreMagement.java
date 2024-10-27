@@ -10,6 +10,7 @@ public class StoreMagement {
         
         for (StoreItem item:storeItems){
             item.show();
+            item.calculatePrice();
             
             
         }

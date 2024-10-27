@@ -6,6 +6,10 @@ public class Equipment extends StoreItem{
         this.serialNumber = serialNumber;
     }
 
+    public double calculatePrice(){
+        return getPrice();
+    }
+
     
 
     public void show(){

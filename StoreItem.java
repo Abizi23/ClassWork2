@@ -11,6 +11,10 @@ public abstract class StoreItem{
 
     public abstract void show();
 
+    public abstract double calculatePrice();
+        
+    
+
 
 
 public String getName() {

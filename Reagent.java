@@ -29,7 +29,25 @@
         public void show(){
             System.out.println("Reagent Specification:"+" "+getName()+" "+getExpiry()+": "+getPrice()+"ugx"+": "+getPurity()+" "+getQuantity()+"ml");
         }
+
+        
+        public double calculatePrice(){
+            if(getPurity()<0.5){
+                return getPrice()*0.05;
+            }else{
+                return getPrice();
+
+            }
+        }
+        
+
+        
+        
+        
        
+        
+        
+        }
        
         
         
@@ -44,5 +62,5 @@
         
        
        
-    }
+    
     

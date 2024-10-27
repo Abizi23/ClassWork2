@@ -6,6 +6,10 @@ public class Kit extends StoreItem{
         super(name, price);
         this.numberofbox = numberofbox;
     }
+
+    public double calculatePrice(){
+        return getPrice();
+    }
     
 
     
